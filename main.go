@@ -72,7 +72,7 @@ func main() {
 	db = client.Database("glacierapi")
 
 	app := golf.New()
-	app.Post("/", mainHandler)
+	app.Post("/ilum", mainHandler)
 	app.Run(":9000")
 
 	fmt.Println("Hello World!")
